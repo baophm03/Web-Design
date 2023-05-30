@@ -1,0 +1,128 @@
+main {
+  padding: 0px;
+}
+
+.slide {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.slide img{
+  width: 100%;
+
+}
+
+.prev-btn, .next-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+
+}
+
+.prev-btn {
+left: 0;
+}
+
+.next-btn {
+right: 0;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+.spbanchay{
+  text-align: center;
+  background-color: rgba(78, 13, 103, 0.6);  
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  width: 20%;
+  border: 1px solid rgb(122, 121, 121);
+  padding: 10px;
+  margin: 5px;
+}
+
+.product img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 150px;
+  max-width: 300px;
+}
+
+
+.product h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.product p {
+  margin-bottom: 10px;
+}
+
+.product .price {
+  text-align: left;
+  font-size: 25px;
+  color: rgb(218, 3, 3);
+  font-weight: bold;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.page-number, .arrow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  margin: 5px;
+  text-align: center;
+}
+.page-number1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(236, 210, 96);
+}
+.arrow-btn {
+  font-size: 18px;
+}
+
+.prev-btnn {
+  transform: rotate(180deg);
+}

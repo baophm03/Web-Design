@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+ul, li, a, button {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1;
+}
+header:hover{
+    background-color: #333;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+header:hover *{
+    color: white;
+}
+
+.project:hover{
+    color: orange;
+    transition: all 0.2s ease 0s;
+}
+.project:hover *{
+    color: white;
+    background-color: #333;
+
+}
+.intro:hover{
+    color: orange;
+    transition: all 0.2s ease 0s;
+}
+.intro:hover *{
+    color: white;
+    background-color: #333;
+
+}
+.prod:hover{
+    color: orange;
+    transition: all 0.2s ease 0s;
+}
+.prod:hover *{
+    color: white;
+    background-color: #333;
+
+}
+.news:hover{
+    color: orange;
+    transition: all 0.2s ease 0s;
+}
+.news:hover *{
+    color: white;
+    background-color: #333;
+
+}
+.tuyendung:hover{
+    color: orange;
+    transition: all 0.2s ease 0s;
+}
+.tuyendung:hover *{
+    color: white;
+    background-color: #333;
+
+}
+.lh:hover{
+    color: orange;
+    transition: all 0.2s ease 0s;
+}
+.lh:hover *{
+    color: white;
+    background-color: #333;
+
+}
+.logo{
+    display: flex;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    border: none;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li{
+    padding: 0px 20px;
+    display: inline-block;
+}
+.nav_link li a{
+   text-decoration: none;
+}
+.login{
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+    padding: left;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.register{
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    padding: left;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.login:hover{
+    background-color: green;  
+}
+.register:hover{
+    background-color: red;  
+}
+body{
+    display: block;
+    margin: 0;
+}
+
+

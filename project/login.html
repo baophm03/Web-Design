@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div id="loginPopup" class="login-popup">
+    <div class="login-popup-content">
+        <div class="logo">
+          <a class="logo1" href="../project/project.html">
+            <img class="logo2" src="../images/logo.png" alt="">
+          </a>
+        </div>
+        <div>
+          <span class="close-button" id="closeButton">&times;</span>
+        <label for="username">Email:</label>
+        <input type="text" id="username" name="username" placeholder="example@gmail.com">
+    
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" placeholder="Mật khẩu">
+        <div class = "noname">
+            <div>
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Lưu mật khẩu</label>
+            </div>
+            <div class="forgot-password">
+                <a href="#">Bạn quên mật khẩu?</a>
+            </div>
+        </div>
+        <button id="login">Đăng nhập</button>
+        <button class="register-button">Đăng ký</button> 
+    </div>  
+  </div>
+</div>
+<script src="dangnhap.js"></script>
+</body>
+</html>

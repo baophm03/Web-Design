@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>bán sản phẩm</title>
+  <link rel="shortcut icon" type="images" href="../images/logo.png"/>
+</head>
+<body>
+
+  <header>
+        <div class="header">
+            <a href="../project/project.html">
+                <img class="logo" src="../images/logo.png" alt="error">
+            </a>
+            <form action="" class="search-bar">
+                <input type="text" placeholder="Tìm kiếm..."/>
+                <button type="submit"><img src="../images/button-search.png"></button>
+            </form>
+            <nav>
+                <ul class="chucnang">
+                    <li><a href="#"><ion-icon name="bag-handle-outline"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="chatbubbles-outline"></ion-icon></a></li>                    
+                    <li><img id="loginButton" class="round-button" src="../images/avatar.png" alt="Đăng nhập">
+                        <div id="loginPopup" class="login-popup">
+                            <div class="login-popup-content">
+                                <span class="close-button" id="closeButton">&times;</span>
+                                <label for="username">Tên tài khoản:</label>
+                                <input type="text" id="username" name="username" placeholder="Nhập tên tài khoản">
+                            
+                                <label for="password">Mật khẩu:</label>
+                                <input type="password" id="password" name="password" placeholder="Nhập mật khẩu">
+                            
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">Lưu mật khẩu</label>
+                            
+                                <button id="login">Đăng nhập</button>
+                                <button class="register-button">Đăng ký</button>
+                            </div>
+                        </div>
+                        <script src="dangnhap.js"></script>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-menu">
+            <ul class="menu-list">
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+                <li>            
+                    <div class="pc">
+                        <a href="#">
+                            <span class="material-symbols-outlined">computer</span>                            
+                            <p>Pc</p>             
+                        </a>      
+                    </div>
+                </li>
+
+                <li>
+                    <div class="laptop">
+                        <a href="#">
+                            <ion-icon name="laptop-outline"></ion-icon>                            
+                            <p>Laptop</p>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="manhinh">
+                        <a href="#">
+                            <ion-icon name="desktop-outline"></ion-icon>
+                            <p>Màn hình</p>                       
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="banphim">
+                        <a href="#">
+                            <span class="material-symbols-outlined">keyboard</span>                            
+                            <p>Bàn phím - Chuột</p>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="banghe">
+                        <a href="#">
+                            <span class="material-symbols-outlined">event_seat</span>                            
+                            <p>Bàn - Ghế</p>                            
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="phukien">
+                        <a href="#">
+                            <ion-icon name="headset-outline"></ion-icon>                            
+                            <p>Phụ kiện</p>                       
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+  </header>
+
+  <main>
+    <section class="banner">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+            <div class="prev-btn" id="prevBtn">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="next-btn" id="nextBtn">
+                <ion-icon name="arrow-forward-outline"></ion-icon>            
+            </div>
+        
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="../images/banner1.jpeg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="../images/banner2.jpeg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="../images/banner3.jpeg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="../images/banner4.jpeg" alt="Image 4">
+            </div>
+            <div class="slide">
+                <img src="../images/banner5.jpeg" alt="Image 5">
+            </div>
+            <div class="slide">
+                <img src="../images/banner6.png" alt="Image 6">
+            </div>
+        </div>
+        <script src="slideshow.js"></script>
+    </section>
+    <section class="spbanchay">
+        <p>SẢN PHẨM BÁN CHẠY</p>
+    </section>
+    <section class="product-container">
+        <div class="product">      
+            <img src="../images/sanpham1.webp" alt="Product 1">
+            <h2>Bàn phím</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        
+        <div class="product">
+            <img src="../images/sanpham2.webp" alt="Product 2">
+            <h2>Laptop Lenovo Legion 7</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        
+        <div class="product">
+            <img src="../images/sanpham3.webp" alt="Product 3">
+            <h2>Msi 2023</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+
+        <div class="product">
+            <img src="../images/sanpham4.webp" alt="Product 4">
+            <h2>Macbook Pro M1</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+
+
+        <div class="product">
+            <img src="../images/sanpham5.jpg" alt="Product 5">
+            <h2>DearU EM901</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        <div class="product">
+            <img src="../images/sanpham2.webp" alt="Product 6">
+            <h2>Laptop Legion 5 pro</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        <div class="product">
+            <img src="../images/sanpham7.jpg" alt="Product 7">
+            <h2>Logitech G502</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        <div class="product">
+            <img src="../images/sanpham8.jpg" alt="Product 8">
+            <h2>MSI RTX 4090 SUPRIM X</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        <div class="product">
+            <img src="../images/sanpham9.webp" alt="Product 9">
+            <h2>Bàn chữ Z</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        <div class="product">
+            <img src="../images/sanpham10.webp" alt="Product 10">
+            <h2>Ghế công thái học</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        <div class="product">
+            <img src="../images/sanpham11.png" alt="Product 11">
+            <h2>Intel I9 13900k</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        <div class="product">
+            <img src="../images/sanpham12.jpg" alt="Product 12">
+            <h2>Poster Wibu</h2>
+            <p class="price">10,990,000 đ</p>
+        </div>
+        
+    </section>
+    <section class="pagination">
+            <div class="page-number1">1</div>
+            <div class="page-number">2</div>
+            <div class="page-number">3</div>
+            <div class="arrow-btn next-btnn">></div>
+    </section>
+    
+  </main>
+  
+  <footer>            
+    <div class="contact">
+        <div class="socialmedia">
+            <p class="mangxh">Mạng xã hội</p>
+            <hr>
+            <div class="ins">
+                <a href="https://www.instargram.com/">
+                    <img class="ins" src="../images/logo-ins.png" alt="error">
+                </a>
+                <p>Instargram</p>
+            </div>
+
+            <div class="fb">
+                <a href="https://www.facebook.com/profile.php?id">
+                    <img class="fb" src="../images/logo-fb.png" alt="error">
+                </a>
+                <p>Facebook</p>
+            </div>
+            
+
+            <div class="li">                
+                <a href="https://www.linkedin.com/">
+                    <img class="ln" src="../images/logo-ln.png" alt="error">
+                </a>
+                <p>Linkedin</p>
+            </div>
+            
+        </div>
+        <div class="webbyme">
+            <p class="webme">Thuộc hệ thống</p>
+            <hr>
+            <p>www.google.com</p>
+            <p>www.youtube.com</p>
+            <p>www.apple.com</p>
+            <p>www.samsung.com</p>
+        </div>
+        <div class="numberphones">
+            <p class="lienhe">Liên hệ</p>
+            <hr>
+
+            <p>Tư vấn: 03xxxxxxxx</p>
+            <p>CSKH: 03xxxxxxxx</p>
+            <p>Email: baoi***@gmail.com</p>
+            <p>Tuyển dụng: duck****@gmail.com</p>
+        </div>
+        <div class="address">
+            <p class="diachi">Địa chỉ</p>
+            <hr>
+
+            <p>Tp HCM: Thành phố Hồ Chí Minh, Việt Nam </p>
+            <p>Đà Nẵng: Đà Nẵng, Việt Nam</p>
+            <p>Huế: Tp. Huế, Thừa Thiên Huế, Việt Nam</p>
+            <p>Hà Nội: Hồ Hoàn Kiếm, Hà Nội, Việt Nam</p>
+        </div>
+        <div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="239" height="197" id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:197px;width:239px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:197px;width:239px;}</style></div></div>
+        </div>
+        
+    </div>            
+    <p class="copyright">Trang web được code bởi baophmm &copy; 2023, được tham khảo từ các trang web MSI, TGDD, GEARVN, TNC,...</p>
+    </footer>
+
+</body>
+</html>
