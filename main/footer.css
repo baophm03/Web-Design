@@ -1,0 +1,118 @@
+/* Định dạng footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+footer h1{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+}
+.copyright{
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+.mangxh{
+    font-size: 20px;
+}
+.ins, .ins a{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.ins{
+    padding: 5px;
+    width: 20px;
+}
+.ins img{
+    width: 20px;
+    padding: 0;
+}
+.ins p{
+    padding: 3px;
+}
+.fb, .fb a{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.fb{
+    padding: 5px;
+    width: 20px;
+}
+.fb img{
+    width: 20px;
+    padding: 0;
+}
+.fb p{
+    padding: 3px;
+}
+.li, .li a{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.li{
+    padding: 5px;
+    width: 20px;
+}
+.li img{
+    width: 20px;
+    padding: 0;
+}
+.li p{
+    padding: 3px;
+}
+.mangxh{
+    color: rgb(255, 220, 122);
+    font-size: 20px;
+}
+.webme{
+    color: rgb(255, 220, 122);
+    font-size: 20px;
+}
+.webbyme{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.lienhe{
+    color: rgb(255, 220, 122);
+    font-size: 20px;
+}
+.diachi{
+    color: rgb(255, 220, 122);
+    font-size: 20px;
+}
+.webbyme p{
+    text-align: left;
+    padding: 2px;
+}
+.numberphones{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.numberphones p{
+    text-align: left;
+    padding: 2px;
+}
+.address{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.address p{
+    text-align: left;
+    padding: 2px;
+}

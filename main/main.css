@@ -1,0 +1,72 @@
+main{
+  display: block;
+  margin: 0;
+}
+
+
+/* Định dạng phần giới thiệu */
+.introduction {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.introduction h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* CSS cho phần giới thiệu */
+.company-intro {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.intro-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.intro-container {
+  position: relative;
+  /* Các thuộc tính khác cho phần giới thiệu */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-frame {
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+}
